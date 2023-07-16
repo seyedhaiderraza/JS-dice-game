@@ -12,7 +12,7 @@ player score add up on turn change
 2. # Project URL
 ----------------
 
-https://js-finance-app.vercel.app/
+https://js-dice-game-three.vercel.app/
 
 4. # Technology Stack used
 -----------------
