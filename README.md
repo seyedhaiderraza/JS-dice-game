@@ -2,7 +2,12 @@
 1. # Project summary
 ----------------
 
-This is a Javascript only Project using HTML5/CSS3 to show a Finance app consisting of - login, transactions-deposit/withdrawal, transfer to, close account functionalities.
+This is a Javascript only Project using HTML5/CSS3 to show a Dice Game app consisting of - 
+new game
+rolling the dice,
+current player turn score handling, 
+player turn change on dice random vlaue 1
+player score add up on turn change
 
 2. # Project URL
 ----------------
@@ -15,68 +20,62 @@ HTML5/CSS3
 JavaScript: 📜 
   - DOM Manipulation,
   - EventListeners and handling
-  - Array methods - push, pop, shift, unshift, slice, splice
-  - functions
 vercel deployment
 
 5. # Functional Requirements/Acceptance Criteria
 -----------------
-FETCH ALL MOVIES ASYNC
-GIVEN: user visits the homepage
-WHEN: homepage loads
-THEN: user is able to see movies
-AND: movie cards should be shown with image and data
+#### new game
+GIVEN: dice game page loads
+WHEN: user press new game
+THEN: roll button enables
+AND: one player enabled
 
-SINGLE MOVIE FETCH ASYNC 
-GIVEN: user is on the homepage
-WHEN: user clicks any movie or show
-THEN: user is able to see single movie page
-AND: single movie page should display movie details
-AND: pageURL should show imdbID in params
+### rolling the dice
+GIVEN: new dice game starts
+WHEN: roll button pressed
+THEN: dice value added to current score of current player
 
-SLIDER
-GIVEN: user is on the movie page
-WHEN: user clicks on carousel left/right
-THEN: user is able to see slider with movies moving
 
-SEARCH
-GIVEN: user is on the homepage
-WHEN: user clicks on search and enters any title
-THEN: user is able to see movies and show for that title only
+### current player turn score handling
+GIVEN: roll button pressed
+WHEN: dice shows any number except 1
+THEN: score gets added to current
+
+
+### player turn change on dice random value 1 with current score lost
+GIVEN: roll button pressed
+WHEN: dice shows  1
+THEN: current score gets lost
+AND : player turn changes
+
+
+
+### player turn change on hold press current score not  lost
+GIVEN: player turn going
+WHEN: player presses hold
+THEN: current score adds to total score
+AND: current score turns 0 with player turn change
+
+
 
 6. # Test Data(if any)
 -----------------
- 1. Transfer To : 'John Smith',
-          Login : 'jsmith',
-            pin : 1234,
-
-    
-2.  Transfer To :  'Jane Doe',
-          Login : 'jdoe'
-          pin: 5678,
-    
-3. Transfer To : 'Bob Johnson',
-          pin: 9876,
-           Login : 'bjohnson'
- 4. Transfer To : 'Alice Lee',
-          pin: 2468,
-          Login: 'alee'
-    
- 5.  Transfer To : 'Tom Brown',
-          pin: 1357,
-          Login: 'tbrown'
- 6. Transfer To :  'Sara Kim',
-          pin: 3690,
-          Login: 'skim'
+N/A
 
 7. # Screens
 ------------------
-### Homepage without Login:
-![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/1e1f1d33-0a6f-46ef-99a7-26a24985c56f)
+### Before New Game
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/53a0975f-39b1-48fe-a237-461f2413a32d)
 
-### HomePage with Login:
-data: jsmith, 1234
-![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/0de0ae03-972f-4d79-a6fd-3b821d9a0da7)
+### After New Game Click
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/cb927734-87d1-4cd5-9c4c-2a9b96c37f27)
+
+### Player current score
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/42d5ac02-415d-44b4-9504-3fcc9ee6209a)
+
+### Player turn change
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/1f125b0e-6a71-4c67-9bb4-d6f015135b7f)
+
 
 
 
