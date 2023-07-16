@@ -71,22 +71,12 @@ THEN: user is able to see movies and show for that title only
 
 7. # Screens
 ------------------
-### HomePage
-movie slider carousel
-![image](https://github.com/seyedhaiderraza/movieratingapp-reactredux/assets/129282622/3017ece9-414e-49a0-b79a-8300c624171f)
+### Homepage without Login:
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/1e1f1d33-0a6f-46ef-99a7-26a24985c56f)
 
-shows listing
-
-![image](https://github.com/seyedhaiderraza/movieratingapp-reactredux/assets/129282622/acc3f7bf-7034-4875-8ad7-d4192eb03097)
-
-### Single Movie Page
-
-![image](https://github.com/seyedhaiderraza/movieratingapp-reactredux/assets/129282622/6f127a11-b333-4da2-9450-7d2df661aeff)
-
-### Loading react-loader-spinner
-
-![image](https://github.com/seyedhaiderraza/movieratingapp-reactredux/assets/129282622/a8d8ce6f-ca9a-40e7-a4a2-90013519fdd4)
-
+### HomePage with Login:
+data: jsmith, 1234
+![image](https://github.com/seyedhaiderraza/JS-dice-game/assets/129282622/0de0ae03-972f-4d79-a6fd-3b821d9a0da7)
 
 
 
